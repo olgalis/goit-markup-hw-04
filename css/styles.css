@@ -381,6 +381,52 @@ img {
   text-align: center;
 }
 
+.team-list-decription::after {
+  content: '';
+  margin-top: 8px;
+  display: block;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-image: center;
+  background-color: blue;
+  background-image: url(../images/svg/instagram.svg);
+}
+/* ---------------Customers----------------- */
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers > h2 {
+  color: var(--dark--navy-color);
+  font-family: inherit;
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-bottom: 72px;
+}
+
+.logo-list {
+  display: flex;
+  gap: 24px;
+}
+
+.logo-list-list {
+  list-style-type: none;
+  height: 88px;
+  width: calc((100% - 120px) / 6);
+}
+
+.logo {
+  margin: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--subtle-lslate-color);
+}
 /* --------FOOOTER--------------------- */
 .footer {
   background-color: var(--navy-blue-modal-color);
