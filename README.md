@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-04
 
-Second homework for GoIT Course
+Learning how to use SVG and icons 
