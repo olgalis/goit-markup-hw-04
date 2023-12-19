@@ -276,6 +276,18 @@ img {
   letter-spacing: 0.02em;
 }
 
+.icon-attributes,
+.icon-before-attributes {
+  background-color: var(--light-cloud-color);
+  border-radius: 4px;
+  width: 100%;
+}
+.icon-before-attributes {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
 /* -----------PRODUCTS--------- */
 .products {
   padding-bottom: 120px;
@@ -301,7 +313,8 @@ img {
 .products-list-item {
   background-color: var(--accent-corn-color);
   border: 1px solid var(--accent-corn-color);
-  width: calc((100% - 48px) / 3);
+  /*when the image is not right the problem is a space between % and minus*/
+  width: calc((100%-48px) / 3);
 }
 
 /* -----------TEAM-------------------- */
@@ -349,6 +362,24 @@ img {
 }
 .team-list-decription {
   text-align: center;
+}
+.icons-teams-list {
+  margin-top: 8px;
+}
+.icons-team {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.icon-list {
+  width: calc((100%-72px) / 4);
+}
+.icons-social-media {
+  width: 16px;
+  height: 16px;
+  background-color: var(--primary--iris-color);
+  border-radius: 50%;
 }
 
 /* --------FOOOTER--------------------- */
